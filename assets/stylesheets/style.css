@@ -97,11 +97,11 @@ label{
   font-family: "Gill Sans";
   font-size: 16px;
   cursor: pointer;
-  border-style: ridge;
+  border-style: dotted solid double dashed;
 }
 
 .radio-toolbar input[type="radio"]:checked+label {
-  background-color: #004d4d;
+  background-color: #80ff80;
 }
 
 
