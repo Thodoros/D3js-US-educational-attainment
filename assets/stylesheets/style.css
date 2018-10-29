@@ -97,7 +97,7 @@ label{
   font-family: "Gill Sans";
   font-size: 16px;
   cursor: pointer;
-  border-style: dotted solid double dashed;
+  border-style: ridge;
 }
 
 .radio-toolbar input[type="radio"]:checked+label {
