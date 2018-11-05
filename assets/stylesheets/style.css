@@ -255,7 +255,7 @@ form {
     #chart {
 	  max-width: 100%;
 	  overflow:auto;
-    margin: 0px;
+    margin: 50px;
         margin-top: 20px;
 	}
 	text {
