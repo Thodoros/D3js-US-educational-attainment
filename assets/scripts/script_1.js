@@ -18,8 +18,8 @@ var donut = donutChart()
     });
 
 function donutChart() {
-    var width = chart.clientWidth,
-        height = width / aspectRatio,
+    var width,
+        height,
         margin = {top: 10, right: 10, bottom: 10, left: 10},
         colour = d3.scaleOrdinal().range(["#A93226", "#7D3C98", "#2E86C1", "#138D75", "#D68910", "#A6ACAF", "#2E4053"]), // colour scheme
         variable, // value in data that will dictate proportions on chart
@@ -29,10 +29,6 @@ function donutChart() {
         cornerRadius, // sets how rounded the corners are on each slice
         percentFormat = d3.format(',.1%');
         
-        window.addEventListener('resize', function(event){
-             redraw();
-         });
-
     function chart(selection){
         selection.each(function(data) {
             // generate chart
