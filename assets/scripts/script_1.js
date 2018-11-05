@@ -15,10 +15,6 @@ var donut = donutChart()
             .datum(data) // bind data to the div
             .call(donut); // draw chart in div
             
-             options: {
-        responsive: true
-    }
-            
     });
 
 function donutChart() {
