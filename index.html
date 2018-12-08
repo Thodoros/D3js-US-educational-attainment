@@ -13,7 +13,7 @@
 </head>
   <header>
        <nav>
-    <ul>
+     <ul id="nav">
       <li><a href="#top" onmouseover="playclip();" >Top</a></li>
       <li><a href="#national" onclick="showhide('nationwide');" onmouseover="playclip();">National</a></li>
       <li><a href="#regional" onclick="showhide('regionlevel');" onmouseover="playclip();">Regional</a></li>
@@ -36,6 +36,7 @@
 	
     <h1 class="title"  onmouseover="responsiveVoice.speak('Educational Attainment in the United States');"
 	               onmouseleave="responsiveVoice.cancel();" > Educational Attainment in the United States 
+	<div class="hide" id="nationwide">
     </h1>
 	
     <p><br></p>
@@ -44,6 +45,7 @@
     </h2>
 	
     <svg id="pie-chart" width="960" height="450"></svg><a name="regional"></a>
+    <div class="hide" id="regionlevel">    
     <p><br><br><br></p>
 	
     <h2 class="subtitle" onmouseover="responsiveVoice.speak('Educational Attainment: Region-level Breakdown of University Students')"
