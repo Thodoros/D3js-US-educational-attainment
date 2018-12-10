@@ -249,6 +249,15 @@ polyline{
     margin: 0 auto;
 }
 
+#bar-chart {
+    display: block;
+    margin: 0 auto;
+}
+
+#bar-chart rect {
+  fill: red
+}
+
 .paragraph {
     width: 800px;
     display: block;
