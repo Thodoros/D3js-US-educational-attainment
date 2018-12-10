@@ -249,12 +249,12 @@ polyline{
     margin: 0 auto;
 }
 
-#bar-chart {
+#char1 {
     display: block;
     margin: 0 auto;
 }
 
-#bar-chart rect {
+#char1 rect {
   fill: red
 }
 
