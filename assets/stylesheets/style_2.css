@@ -29,11 +29,11 @@ body {
 }
 .container svg rect.bar {
   cursor: pointer;
-  fill: #1d0d21;
+  fill: #66a3ff;
   transition: fill 0.2s ease-out;
 }
 .container svg rect.bar:hover {
-  fill: #25002e;
+  fill: #0000e6;
 }
 .container svg text {
   fill: #1d0d21;
