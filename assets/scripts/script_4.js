@@ -1,6 +1,6 @@
 // include data points and titles for each one of them
-const dataset = [151, 100, 135, 107, 156, 72, 86];
-const datasetTitles = ["Kanto", "Jotho", "Hoenn", "Sinnoh", "Unova", "Kalos", "Alola"];
+const dataset = [399.790, 192.540, 873.862, 388.790];
+const datasetTitles = ["Βοοειδή", "Χοίροι", "Πρόβατα", "Αίγες"];
 
 // start by including a header in the DOM
 d3.select(".container")
