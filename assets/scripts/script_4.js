@@ -5,7 +5,7 @@ const datasetTitles = ["Βοοειδή", "Χοίροι", "Πρόβατα", "Αί
 // start by including a header in the DOM
 d3.select(".container")
     .append("h1")
-    .text("Ζωικές Μονάδες,2016-17");
+    .text("Ζωικες Μοναδες,2016-17");
 
 
 // in order to draw the chart, you need to include an SVG element. Define width and height of the SVG canvas
