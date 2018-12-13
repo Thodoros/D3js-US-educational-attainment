@@ -1,12 +1,4 @@
-var pie=new d3pie("pieChart",{
-  // header:{
-    // title:{
-      // text:" Παραγωγή λασπών(2004-2014)",
-      // color:"#000000",
-      // fontSize:25,
-      // font:"verdana"
-    // }
-  // },
+var pie=new d3pie("pieChart",{ 
   size:{
     canvasHeight:500,
     canvasWidth: 600
