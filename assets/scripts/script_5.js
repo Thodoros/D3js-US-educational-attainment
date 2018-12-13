@@ -52,10 +52,6 @@ var pie=new d3pie("pieChart",{
       decimalPlaces: 0,
       fontSize: 15
     },
-    // value:{
-    //   color:"blue",
-    //   font:"verdana",
-    // },
     lines:{
       enabled:!0,
       color:"#ccc"
